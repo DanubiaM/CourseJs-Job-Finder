@@ -1,0 +1,32 @@
+{
+  "name": "coursejs-job-finder",
+  "version": "1.0.0",
+  "description": "JavaScript course project. Learning Node, Express and Sequelize.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanubiaM/CourseJs-Job-Finder.git"
+  },
+  "author": "Danubia Macedo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanubiaM/CourseJs-Job-Finder/issues"
+  },
+  "homepage": "https://github.com/DanubiaM/CourseJs-Job-Finder#readme",
+  "keywords": [
+    "job"
+  ],
+  "dependencies": {
+    "body-parser": "^1.19.0", 
+    "express": "^4.17.1",
+    "express-handlebars": "^5.0.0",
+    "sequelize": "^6.3.0",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
